@@ -54,6 +54,32 @@ EEG data is preprocessed and fed into a trained machine learning model.
 The model classifies the data into seizure (1) or non-seizure (0).
 
 The Gradio interface allows users to input new data and get real-time predictions.
+🧪 Test Input Example
+To help you get started, here’s an example of realistic EEG feature values that will trigger a seizure (epileptic) prediction:
+
+Feature	Example Value
+feature_0 (FP1 δ)	125.4
+feature_1 (FP1 θ)	98.7
+feature_2 (FP1 α)	87.6
+feature_3 (FP1 β)	45.3
+feature_4 (FP1 γ)	23.9
+feature_5 (FP2 δ)	112.1
+feature_6 (FP2 θ)	90.5
+feature_7 (FP2 α)	80.2
+feature_8 (FP2 β)	50.7
+
+🔎 These values simulate typical EEG readings with elevated brainwave activity consistent with seizure conditions.
+You can copy and paste these directly into the live app on Hugging Face.
+
+🧠 Tip for Users
+If you're unsure what values to try:
+
+Use float values (e.g., 85.3, not just 85).
+
+Don't input all 0s — that's not a valid EEG signal.
+
+Try adjusting values one at a time to see how predictions change.
+
 
 📚 Dependencies
 scikit-learn
