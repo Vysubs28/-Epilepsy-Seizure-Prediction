@@ -4,7 +4,7 @@ This project uses a machine learning model to classify EEG (electroencephalogram
 
 ## 🚀 Live Demo
 
-👉 [Try the app on Hugging Face Spaces](https://huggingface.co/spaces/your-username/your-space-name)  
+👉 [Try the app on Hugging Face Spaces](https://huggingface.co/spaces/vysubs28/epilepsy-predictor) 
 *(Replace the link with your actual Space URL)*
 
 ## 📈 Model Performance
